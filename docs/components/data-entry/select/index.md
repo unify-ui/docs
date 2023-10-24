@@ -6,6 +6,7 @@ import ShowCaseLoading from './ShowCaseLoading.vue'
 import ShowCaseLocalSearch from './ShowCaseLocalSearch.vue'
 import ShowCaseRemoteSearch from './ShowCaseRemoteSearch.vue'
 import ShowCaseMultiple from './ShowCaseMultiple.vue'
+import ShowCaseStatusError from './ShowCaseStatusError.vue'
 </script>
 
 # Select
@@ -78,6 +79,16 @@ import ShowCaseMultiple from './ShowCaseMultiple.vue'
 
 :::details View source
 <<< @/components/data-entry/select/ShowCaseMultiple.vue
+:::
+
+## Status Error
+
+:::raw
+<ShowCaseStatusError class="vp-raw" />
+:::
+
+:::details View source
+<<< @/components/data-entry/select/ShowCaseStatusError.vue
 :::
 
 ## API
