@@ -4,7 +4,7 @@
   "type": "module",
   "description": "",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --host",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   },
@@ -17,11 +17,11 @@
     "postcss": "^8.4.31",
     "postcss-prefix-selector": "^1.16.0",
     "sass": "^1.69.4",
-    "vitepress": "1.0.0-rc.20",
-    "vue": "^3.3.4"
+    "vitepress": "1.0.0-rc.24",
+    "vue": "^3.3.6"
   },
   "dependencies": {
-    "unify-ui": "^0.14.15"
+    "unify-ui": "^0.14.16"
   },
   "config": {
     "commitizen": {

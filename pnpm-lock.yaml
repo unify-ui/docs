@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   unify-ui:
-    specifier: ^0.14.15
-    version: 0.14.15(@floating-ui/dom@1.5.3)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.3.6)
+    specifier: ^0.14.16
+    version: 0.14.16(@floating-ui/dom@1.5.3)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.3.6)
 
 devDependencies:
   '@faker-js/faker':
@@ -26,10 +26,10 @@ devDependencies:
     specifier: ^1.69.4
     version: 1.69.4
   vitepress:
-    specifier: 1.0.0-rc.20
-    version: 1.0.0-rc.20(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.31)(sass@1.69.4)(search-insights@2.9.0)(typescript@5.2.2)
+    specifier: 1.0.0-rc.24
+    version: 1.0.0-rc.24(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.31)(sass@1.69.4)(search-insights@2.9.0)(typescript@5.2.2)
   vue:
-    specifier: ^3.3.4
+    specifier: ^3.3.6
     version: 3.3.6(typescript@5.2.2)
 
 packages:
@@ -596,8 +596,8 @@ packages:
     resolution: {integrity: sha512-hPpIeeHb/2UuCw06kSNAOVWgehBLXEo0/fUs0mw3W2qhqX89PI2yvok83MnuctYGCPrabGIoi0fFso4DQ+sNUQ==}
     dev: true
 
-  /@types/markdown-it@13.0.4:
-    resolution: {integrity: sha512-FAIUdEXrCDnQmAAmJC+UeW/3p0eCI4QZ/+W0lX/h83VD3v78IgTFYftjnAeXS8H0g4PFQCgipc51cQDA8tjgLw==}
+  /@types/markdown-it@13.0.5:
+    resolution: {integrity: sha512-QhJP7hkq3FCrFNx0szMNCT/79CXfcEgUIA3jc5GBfeXqoKsk3R8JZm2wRXJ2DiyjbPE4VMFOSDemLFcUTZmHEQ==}
     dependencies:
       '@types/linkify-it': 3.0.4
       '@types/mdurl': 1.0.4
@@ -614,6 +614,17 @@ packages:
 
   /@types/web-bluetooth@0.0.18:
     resolution: {integrity: sha512-v/ZHEj9xh82usl8LMR3GarzFY1IrbXJw5L4QfQhokjRV91q+SelFqxQWSep1ucXEZ22+dSTwLFkXeur25sPIbw==}
+    dev: true
+
+  /@vitejs/plugin-vue@4.3.1(vite@4.5.0)(vue@3.3.6):
+    resolution: {integrity: sha512-tUBEtWcF7wFtII7ayNiLNDTCE1X1afySEo+XNVMNkFXaThENyCowIEX095QqbJZGTgoOcSVDJGlnde2NG4jtbQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 4.5.0(@types/node@18.18.6)(sass@1.69.4)
+      vue: 3.3.6(typescript@5.2.2)
     dev: true
 
   /@vue/compiler-core@3.3.6:
@@ -993,6 +1004,7 @@ packages:
   /color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
+    requiresBuild: true
     dependencies:
       color-name: 1.1.4
     dev: true
@@ -1003,6 +1015,7 @@ packages:
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    requiresBuild: true
     dev: true
 
   /commitizen@4.3.0:
@@ -1954,8 +1967,8 @@ packages:
     hasBin: true
     requiresBuild: true
 
-  /unify-ui@0.14.15(@floating-ui/dom@1.5.3)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.3.6):
-    resolution: {integrity: sha512-UUF7pPCjp5qJemeAffJJF4TfhOF0+BtbWOhTFtsikY0/KqOwj4zaOHfCXxTE5YcMht+NKTJB8Q9vwCcouBYWlw==}
+  /unify-ui@0.14.16(@floating-ui/dom@1.5.3)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.3.6):
+    resolution: {integrity: sha512-Fmbko2cEPLlT7n8OJz0+Sl/Z5ubCHKdwvTk8InLCRXII2Q65Rfey6gyhP8DdM82kcdMu38b3FYVmefEqwy1DCQ==}
     peerDependencies:
       '@floating-ui/dom': ^1.2.1
       async-validator: ^4.2.5
@@ -2030,12 +2043,12 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress@1.0.0-rc.20(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.31)(sass@1.69.4)(search-insights@2.9.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-CykMUJ8JLxLcGWek0ew3wln4RYbsOd1+0YzXITTpajggpynm2S331TNkJVOkHrMRc6GYe3y4pS40GfgcW0ZwAw==}
+  /vitepress@1.0.0-rc.24(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.31)(sass@1.69.4)(search-insights@2.9.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-RpnL8cnOGwiRlBbrYQUm9sYkJbtyOt/wYXk2diTcokY4yvks/5lq9LuSt+MURWB6ZqwpSNHvTmxgaSfLoG0/OA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
-      postcss: ^8.4.30
+      postcss: ^8.4.31
     peerDependenciesMeta:
       markdown-it-mathjax3:
         optional: true
@@ -2044,7 +2057,8 @@ packages:
     dependencies:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.9.0)
-      '@types/markdown-it': 13.0.4
+      '@types/markdown-it': 13.0.5
+      '@vitejs/plugin-vue': 4.3.1(vite@4.5.0)(vue@3.3.6)
       '@vue/devtools-api': 6.5.1
       '@vueuse/core': 10.5.0(vue@3.3.6)
       '@vueuse/integrations': 10.5.0(async-validator@4.2.5)(focus-trap@7.5.4)(vue@3.3.6)
