@@ -13,7 +13,7 @@ import { UniButton } from "unify-ui";
     </div>
 
     <div>
-      <UniButton type="soft" rounded>Button3</UniButton>
+      <UniButton type="secondary" rounded>Button3</UniButton>
     </div>
   </div>
 </template>
