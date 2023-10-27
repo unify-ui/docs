@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { UniForm, UniFormItem, UniInput, UniButton, UniPassword } from "unify-ui";
+import { UniForm, UniFormItem, UniInput, UniButton, UniPassword, UniSelect, UniSelectOption } from "unify-ui";
 import { ref } from "vue";
 
 const model = ref({
   username: "",
   password: "",
   address: "",
+  gender: "",
 });
 
 const formRef = ref<InstanceType<typeof UniForm> | null>(null);
@@ -27,24 +28,23 @@ function handleReset() {
 <template>
   <div>
     <UniForm ref="formRef" v-model:model="model">
-      <UniFormItem
-        name="username"
-        :rules="[{ required: true, message: 'Username is required' }]"
-        label="Username"
-      >
+      <UniFormItem name="username" label="Username" :rules="[{ required: true, message: 'Username is required' }]">
         <UniInput v-model="model.username" />
       </UniFormItem>
 
-      <UniFormItem
-        name="password"
-        :rules="[{ required: true, message: 'Password is required' }]"
-        label="Password"
-      >
+      <UniFormItem name="password" label="Password" :rules="[{ required: true, message: 'Password is required' }]">
         <UniPassword v-model="model.password" />
       </UniFormItem>
 
-      <UniFormItem name="address" label="Address">
+      <UniFormItem name="address" label="Address" :rules="[{ required: true, message: 'Address is requried' }]">
         <UniInput v-model="model.address" />
+      </UniFormItem>
+
+      <UniFormItem name="gender" label="Geneder" :rules="[{ required: true, message: 'Gender is requried' }]">
+        <UniSelect v-model="model.gender">
+          <UniSelectOption label="male" value="male" />
+          <UniSelectOption label="female" value="Female" />
+        </UniSelect>
       </UniFormItem>
 
       <div>

@@ -16,12 +16,12 @@
     "cz-conventional-changelog": "^3.3.0",
     "postcss": "^8.4.31",
     "postcss-prefix-selector": "^1.16.0",
-    "sass": "^1.69.4",
+    "sass": "^1.69.5",
     "vitepress": "1.0.0-rc.24",
-    "vue": "^3.3.6"
+    "vue": "^3.3.7"
   },
   "dependencies": {
-    "unify-ui": "^0.14.16"
+    "unify-ui": "^0.14.17"
   },
   "config": {
     "commitizen": {
