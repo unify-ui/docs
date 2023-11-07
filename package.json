@@ -6,22 +6,24 @@
   "scripts": {
     "dev": "vitepress dev docs --host",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "cz": "cz"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.2.0",
+    "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "postcss": "^8.4.31",
     "postcss-prefix-selector": "^1.16.0",
     "sass": "^1.69.5",
-    "vitepress": "1.0.0-rc.24",
-    "vue": "^3.3.7"
+    "vitepress": "1.0.0-rc.25",
+    "vue": "^3.3.8"
   },
   "dependencies": {
-    "unify-ui": "^0.14.17"
+    "unify-ui": "^0.14.21"
   },
   "config": {
     "commitizen": {
