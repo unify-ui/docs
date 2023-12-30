@@ -19,7 +19,9 @@ The simplest way to create a table is by defining the `row-key`, `columns`, and 
 If you want to customize the content of a cell, you can define the content and then pass it to the appropriate slot. The `key` attribute of the `columns` prop represents the slot name for the corresponding cell slot.
 
 ::: raw
+<ClientOnly>
 <ShowCaseBasicUsage class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -31,7 +33,9 @@ If you want to customize the content of a cell, you can define the content and t
 The table supports fixed columns. For keeping the left columns fixed in the table, you can set the `fixed` attribute of the `columns` prop to `left`. Similarly, to keep the right columns fixed in the table, you can set the `fixed` attribute of the `columns` prop to `right`.
 
 ::: raw
+<ClientOnly>
 <ShowCaseFixedColumn class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -57,7 +61,9 @@ Additionally, there are two events that you can use to listen to changes in sele
 If you want to ensure that only one row can be selected at a time, set the `type` attribute of the `selection` prop to `single`.
 
 ::: raw
+<ClientOnly>
 <ShowCaseSingleSelection class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -69,7 +75,9 @@ If you want to ensure that only one row can be selected at a time, set the `type
 If you want to allow multiple rows to be selected in the table simultaneously, you can set the `type` attribute of the `selection` prop to `multiple`.
 
 ::: raw
+<ClientOnly>
 <ShowCaseMultipleSelection class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -86,7 +94,9 @@ The `rowExpand` prop can be used to mark a row expandabled. The `rowExpand` prop
 Additionally, you must define the content of the expanded row and pass it to the slot named `rowExpand`.
 
 ::: raw
+<ClientOnly>
 <ShowCaseExpandableRow class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -98,7 +108,9 @@ Additionally, you must define the content of the expanded row and pass it to the
 Sometimes, you may want to customize the content of a column header cell. In this case, when you define a column with `column.key` as `author`, you can pass the custom content to the slot named `header-author`.
 
 ::: raw
+<ClientOnly>
 <ShowCaseCustomHeader class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -108,7 +120,9 @@ Sometimes, you may want to customize the content of a column header cell. In thi
 ## No Data
 
 ::: raw
+<ClientOnly>
 <ShowCaseNoData class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -122,7 +136,9 @@ To enable the table column sort feature, set the `column.sortable` property. The
 When the sort event is triggered, the `columnKey` and `order` (sort type) of the current sort state are provided. You can use this information to request data from the server.
 
 ::: raw
+<ClientOnly>
 <ShowCaseSort class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -132,7 +148,9 @@ When the sort event is triggered, the `columnKey` and `order` (sort type) of the
 ## Text Ellipsis
 
 ::: raw
+<ClientOnly>
 <ShowCaseTextEllipsis class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source

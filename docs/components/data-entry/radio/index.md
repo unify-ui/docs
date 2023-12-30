@@ -9,7 +9,9 @@ import ShowCaseNoLabel from './ShowCaseNoLabel.vue'
 ## Basic Usage
 
 ::: raw
+<ClientOnly>
 <ShowCaseBasicUsage class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -19,7 +21,9 @@ import ShowCaseNoLabel from './ShowCaseNoLabel.vue'
 ## Disabled
 
 ::: raw
+<ClientOnly>
 <ShowCaseDisabled class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -29,7 +33,9 @@ import ShowCaseNoLabel from './ShowCaseNoLabel.vue'
 ## No Label
 
 ::: raw
+<ClientOnly>
 <ShowCaseNoLabel class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source

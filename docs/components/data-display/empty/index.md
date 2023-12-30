@@ -7,7 +7,9 @@ import ShowCase from './ShowCase.vue'
 Empty state placeholder.
 
 ::: raw
+<ClientOnly>
 <ShowCase class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source

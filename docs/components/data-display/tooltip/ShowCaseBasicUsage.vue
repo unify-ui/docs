@@ -8,7 +8,6 @@ const options = [
   { label: "Left", value: "left" },
   { label: "Right", value: "right" },
 ];
-
 const placement = ref<InstanceType<typeof UniToolTip>["$props"]["placement"]>("top");
 </script>
 

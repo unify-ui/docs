@@ -9,7 +9,9 @@ import ShowCaseDisabled from './ShowCaseDisabled.vue';
 ## Basic usage
 
 ::: raw
+<ClientOnly>
 <ShowCaseBasicUsage class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -19,7 +21,9 @@ import ShowCaseDisabled from './ShowCaseDisabled.vue';
 ## Placeholder
 
 ::: raw
+<ClientOnly>
 <ShowCasePlaceholder class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -29,7 +33,9 @@ import ShowCaseDisabled from './ShowCaseDisabled.vue';
 ## Disabled
 
 ::: raw
+<ClientOnly>
 <ShowCaseDisabled class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source

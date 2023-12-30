@@ -17,7 +17,9 @@ Unify UI provide 3 types of button.
 ## Primary Button
 
 ::: raw
+<ClientOnly>
 <ShowCasePrimaryButton class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -27,7 +29,9 @@ Unify UI provide 3 types of button.
 ## Secondary Button
 
 ::: raw
+<ClientOnly>
 <ShowCaseSecondaryButton class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -37,7 +41,9 @@ Unify UI provide 3 types of button.
 ## Soft Button
 
 ::: raw
+<ClientOnly>
 <ShowCaseSoftButton class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -47,7 +53,9 @@ Unify UI provide 3 types of button.
 ## Rounded Button
 
 ::: raw
+<ClientOnly>
 <ShowCaseRounded class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
@@ -57,7 +65,9 @@ Unify UI provide 3 types of button.
 ## Disabled
 
 ::: raw
+<ClientOnly>
 <ShowCaseDisabled class="vp-raw" />
+</ClientOnly>
 :::
 
 ::: details View Source
