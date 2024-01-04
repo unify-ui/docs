@@ -18,9 +18,9 @@
     "cz-conventional-changelog": "^3.3.0",
     "postcss": "^8.4.32",
     "postcss-prefix-selector": "^1.16.0",
-    "sass": "^1.69.5",
-    "vitepress": "1.0.0-rc.32",
-    "vue": "^3.3.13"
+    "sass": "^1.69.7",
+    "vitepress": "1.0.0-rc.35",
+    "vue": "^3.4.5"
   },
   "dependencies": {
     "unify-ui": "^0.14.24"
