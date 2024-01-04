@@ -14,7 +14,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Basic Usage
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 :::details View source
@@ -24,7 +24,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Disabled
 
 :::raw
-<ShowCaseDisabled class="vp-raw" />
+<ShowCaseDisabled />
 :::
 
 :::details View source
@@ -34,7 +34,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Disabled Option
 
 :::raw
-<ShowCaseDisabledOption class="vp-raw" />
+<ShowCaseDisabledOption />
 :::
 
 :::details View source
@@ -44,7 +44,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Loading
 
 :::raw
-<ShowCaseLoading class="vp-raw" />
+<ShowCaseLoading />
 :::
 
 :::details View source
@@ -54,7 +54,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Local Search
 
 :::raw
-<ShowCaseLocalSearch class="vp-raw" />
+<ShowCaseLocalSearch />
 :::
 
 :::details View source
@@ -64,7 +64,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Remote Search
 
 :::raw
-<ShowCaseRemoteSearch class="vp-raw" />
+<ShowCaseRemoteSearch />
 :::
 
 :::details View source
@@ -74,7 +74,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Multiple
 
 :::raw
-<ShowCaseMultiple class="vp-raw" />
+<ShowCaseMultiple />
 :::
 
 :::details View source
@@ -84,7 +84,7 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 ## Status Error
 
 :::raw
-<ShowCaseStatusError class="vp-raw" />
+<ShowCaseStatusError />
 :::
 
 :::details View source

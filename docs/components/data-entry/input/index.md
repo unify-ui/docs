@@ -16,9 +16,7 @@ Input component let users enter and edit text.
 ## Basic Usage
 
 ::: raw
-<ClientOnly>
-<ShowCaseBasicUsage class="vp-raw" />
-</ClientOnly>
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
@@ -28,9 +26,7 @@ Input component let users enter and edit text.
 ## Placeholder
 
 ::: raw
-<ClientOnly>
-<ShowCasePlaceholder class="vp-raw" />
-</ClientOnly>
+<ShowCasePlaceholder />
 :::
 
 ::: details View Source
@@ -42,9 +38,7 @@ Input component let users enter and edit text.
 You can use the `disabled` property to control the Input component's disabled state.
 
 ::: raw
-<ClientOnly>
-<ShowCaseDisabled class="vp-raw" />
-</ClientOnly>
+<ShowCaseDisabled />
 :::
 
 ::: details View Source
@@ -56,9 +50,7 @@ You can use the `disabled` property to control the Input component's disabled st
 The Input component supports add-ons. To add the leading add-on, use the `leading-add-on` slot. To add the trailing add-on, use the `trailing-add-on` slot.
 
 ::: raw
-<ClientOnly>
 <ShowCaseAddOn class=vp-raw />
-</ClientOnly>
 :::
 
 ::: details View Source
@@ -68,9 +60,7 @@ The Input component supports add-ons. To add the leading add-on, use the `leadin
 The example of adding add-ons to a disabled input:
 
 ::: raw
-<ClientOnly>
 <ShowCaseAddOnDisabled class=vp-raw />
-</ClientOnly>
 :::
 
 ::: details View Source
@@ -82,9 +72,7 @@ The example of adding add-ons to a disabled input:
 The Input component supports inline add-ons. To add the inline leading add-on, use the `inline-leading-add-on` slot. To add the inline trailing add-on, use the `inline-trailing-add-on` slot.
 
 ::: raw
-<ClientOnly>
 <ShowCaseInlineAddOn class=vp-raw />
-</ClientOnly>
 :::
 
 ::: details View Source
@@ -94,9 +82,7 @@ The Input component supports inline add-ons. To add the inline leading add-on, u
 The example of adding leading add-ons to a disabled input:
 
 ::: raw
-<ClientOnly>
 <ShowCaseInlineAddOnDisabled class=vp-raw />
-</ClientOnly>
 :::
 
 ::: details View Source
@@ -106,9 +92,7 @@ The example of adding leading add-ons to a disabled input:
 ## Status: Error
 
 ::: raw
-<ClientOnly>
 <ShowCaseStatusError class=vp-raw />
-</ClientOnly>
 :::
 
 ::: details View Source

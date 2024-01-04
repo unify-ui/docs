@@ -16,7 +16,7 @@ Building a form using `UniForm` and `UniFormItem` is incredibly straightforward.
 Internally, the form utilizes `async-validator` to validate the data entered into it. You can set validation rules for each form item using the `rules` property. For more information regarding validation rules, please refer to the [async-validator GitHub page](https://github.com/yiminghe/async-validator).
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
@@ -30,7 +30,7 @@ In some cases, you might need to use a custom form control not provided by Unify
 The first method involves using `UniFormItem`, which provides Scoped Slots with a `validateStatus` state. When the form control's value is invalid, validateStatus is set to `error`, and when the value is valid, it is set to `success`. You can use this to customize the appearance of the form control:
 
 :::raw
-<ShowCaseCustomizedFormControl class="vp-raw" />
+<ShowCaseCustomizedFormControl />
 :::
 
 ::: details View Source
@@ -40,7 +40,7 @@ The first method involves using `UniFormItem`, which provides Scoped Slots with 
 The second method involves using the composable function `useGetFormItemValidateStatus`, which provides access to the `validateStatus` state. It's important to mention that when using this method, you need to wrap the form control with `UniFormItem` because the `validateStatus` state is provided by `UniFormItem` using the `provide` API:
 
 :::raw
-<ShowCaseCustomizedFormControl2 class="vp-raw" />
+<ShowCaseCustomizedFormControl2 />
 :::
 
 ::: details View Source
@@ -59,7 +59,7 @@ Source code of form example:
 The form layout can be set using the `layout` property. The default value is `vertical`.
 
 :::raw
-<ShowCaseLayout class="vp-raw" />
+<ShowCaseLayout />
 :::
 
 ::: details View Source

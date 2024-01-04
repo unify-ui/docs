@@ -8,9 +8,7 @@ import ShowCaseDisabled from './ShowCaseDisabled.vue'
 ## Basic Usage
 
 ::: raw
-<ClientOnly>
-<ShowCaseBasicUsage class="vp-raw" />
-</ClientOnly>
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
@@ -20,9 +18,7 @@ import ShowCaseDisabled from './ShowCaseDisabled.vue'
 ## Disabled
 
 ::: raw
-<ClientOnly>
-<ShowCaseDisabled class="vp-raw" />
-</ClientOnly>
+<ShowCaseDisabled />
 :::
 
 ::: details View Source

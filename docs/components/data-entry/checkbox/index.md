@@ -10,9 +10,7 @@ import ShowCaseIndeterminate from './ShowCaseIndeterminate.vue'
 ## Basic Usage
 
 ::: raw
-<ClientOnly>
-<ShowCaseBasicUsage class="vp-raw" />
-</ClientOnly>
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
@@ -22,9 +20,7 @@ import ShowCaseIndeterminate from './ShowCaseIndeterminate.vue'
 ## Disabled
 
 ::: raw
-<ClientOnly>
-<ShowCaseDisabled class="vp-raw" />
-</ClientOnly>
+<ShowCaseDisabled />
 :::
 
 ::: details View Source
@@ -34,9 +30,7 @@ import ShowCaseIndeterminate from './ShowCaseIndeterminate.vue'
 ## No Label
 
 ::: raw
-<ClientOnly>
-<ShowCaseNoLabel class="vp-raw" />
-</ClientOnly>
+<ShowCaseNoLabel />
 :::
 
 ::: details View Source
@@ -46,9 +40,9 @@ import ShowCaseIndeterminate from './ShowCaseIndeterminate.vue'
 ## Indeterminate
 
 ::: raw
-<ClientOnly>
-<ShowCaseIndeterminate class="vp-raw" />
-</ClientOnly>
+
+<ShowCaseIndeterminate  />
+
 :::
 
 ::: details View Source

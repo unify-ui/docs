@@ -9,7 +9,7 @@ import ShowCaseCloseable from './ShowCaseCloseable.vue';
 ## Basic Usage
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 :::details View source
@@ -19,7 +19,7 @@ import ShowCaseCloseable from './ShowCaseCloseable.vue';
 ## Preset
 
 :::raw
-<ShowCasePreset class="vp-raw" />
+<ShowCasePreset />
 :::
 
 :::details View source
@@ -29,7 +29,7 @@ import ShowCaseCloseable from './ShowCaseCloseable.vue';
 ## Closeable
 
 :::raw
-<ShowCaseCloseable class="vp-raw" />
+<ShowCaseCloseable />
 :::
 
 :::details View source

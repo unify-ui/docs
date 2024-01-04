@@ -7,7 +7,7 @@ import ShowCaseBasicUsage from './ShowCaseBasicUsage.vue'
 ## Basic Usage
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source

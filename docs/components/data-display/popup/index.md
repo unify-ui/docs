@@ -8,9 +8,7 @@ import ShowCaseTriggerMethod from './ShowCaseTriggerMethod.vue'
 ## Basic Usage
 
 ::: raw
-<ClientOnly>
-<ShowCaseBaseUsage class="vp-raw" />
-</ClientOnly>
+<ShowCaseBaseUsage />
 :::
 
 ::: details View Source
@@ -20,9 +18,7 @@ import ShowCaseTriggerMethod from './ShowCaseTriggerMethod.vue'
 ## Trigger Method
 
 ::: raw
-<ClientOnly>
-<ShowCaseTriggerMethod class="vp-raw" />
-</ClientOnly>
+<ShowCaseTriggerMethod />
 :::
 
 ::: details View Source

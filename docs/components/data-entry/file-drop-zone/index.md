@@ -10,7 +10,7 @@ import ShowCaseCustomizedContent from './ShowCaseCustomizedContent.vue'
 ## Basic Usage
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
@@ -20,7 +20,7 @@ import ShowCaseCustomizedContent from './ShowCaseCustomizedContent.vue'
 ## Multiple Files
 
 :::raw
-<ShowCaseMultipleFiles class="vp-raw" />
+<ShowCaseMultipleFiles />
 :::
 
 ::: details View Source
@@ -30,7 +30,7 @@ import ShowCaseCustomizedContent from './ShowCaseCustomizedContent.vue'
 ## Customized Prompt Text
 
 :::raw
-<ShowCasePromptText class="vp-raw" />
+<ShowCasePromptText />
 :::
 
 ::: details View Source
@@ -40,7 +40,7 @@ import ShowCaseCustomizedContent from './ShowCaseCustomizedContent.vue'
 ## Customized Content
 
 :::raw
-<ShowCaseCustomizedContent class="vp-raw" />
+<ShowCaseCustomizedContent />
 :::
 
 ::: details View Source

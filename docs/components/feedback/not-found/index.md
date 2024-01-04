@@ -7,7 +7,7 @@ import ShowCase from './ShowCase.vue'
 We can use the `UniNotFound` component on the 404 page, which will be displayed when users visit a page that does not exist.
 
 :::raw
-<ShowCase class="vp-raw" />
+<ShowCase />
 :::
 
 ::: details View Source

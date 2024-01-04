@@ -7,9 +7,7 @@ import ShowCaseInternationalization from './ShowCaseInternationalization.vue'
 ## Internationalization
 
 ::: raw
-<ClientOnly>
-<ShowCaseInternationalization class="vp-raw" />
-</ClientOnly>
+<ShowCaseInternationalization />
 :::
 
 ::: details View Source

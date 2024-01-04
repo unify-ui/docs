@@ -8,7 +8,7 @@ import ShowCaseMultiple from './ShowCaseMultiple.vue';
 ## Basic usage
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
@@ -18,7 +18,7 @@ import ShowCaseMultiple from './ShowCaseMultiple.vue';
 ## Multiple files
 
 :::raw
-<ShowCaseMultiple class="vp-raw" />
+<ShowCaseMultiple />
 :::
 
 ::: details View Source

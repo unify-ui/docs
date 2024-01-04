@@ -9,7 +9,7 @@ Confirm Modal use to preventing accidental actions. When the user needs to perfo
 ## Basic Usage
 
 :::raw
-<ShowCaseBasicUsage class="vp-raw" />
+<ShowCaseBasicUsage />
 :::
 
 ::: details View Source
