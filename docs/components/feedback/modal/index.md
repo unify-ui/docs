@@ -17,7 +17,7 @@ In short, the Modal component can provide a better user experience by helping us
 
 ## Basic Usage
 
-:::raw
+::: raw
 <ShowCaseBasicUsage />
 :::
 

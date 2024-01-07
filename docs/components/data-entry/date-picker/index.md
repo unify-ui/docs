@@ -6,7 +6,7 @@ import ShowCaseBasicUsage from './ShowCaseBasicUsage.vue'
 
 ## Basic Usage
 
-:::raw
+::: raw
 <ShowCaseBasicUsage />
 :::
 

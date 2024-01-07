@@ -13,81 +13,81 @@ import ShowCaseStatusError from './ShowCaseStatusError.vue'
 
 ## Basic Usage
 
-:::raw
+::: raw
 <ShowCaseBasicUsage />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseBasicUsage.vue
 :::
 
 ## Disabled
 
-:::raw
+::: raw
 <ShowCaseDisabled />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseDisabled.vue
 :::
 
 ## Disabled Option
 
-:::raw
+::: raw
 <ShowCaseDisabledOption />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseDisabledOption.vue
 :::
 
 ## Loading
 
-:::raw
+::: raw
 <ShowCaseLoading />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseLoading.vue
 :::
 
 ## Local Search
 
-:::raw
+::: raw
 <ShowCaseLocalSearch />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseLocalSearch.vue
 :::
 
 ## Remote Search
 
-:::raw
+::: raw
 <ShowCaseRemoteSearch />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseRemoteSearch.vue
 :::
 
 ## Multiple
 
-:::raw
+::: raw
 <ShowCaseMultiple />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseMultiple.vue
 :::
 
 ## Status Error
 
-:::raw
+::: raw
 <ShowCaseStatusError />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-entry/select/ShowCaseStatusError.vue
 :::
 

@@ -8,31 +8,31 @@ import ShowCaseCloseable from './ShowCaseCloseable.vue';
 
 ## Basic Usage
 
-:::raw
+::: raw
 <ShowCaseBasicUsage />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-display/tag/ShowCaseBasicUsage.vue
 :::
 
 ## Preset
 
-:::raw
+::: raw
 <ShowCasePreset />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-display/tag/ShowCasePreset.vue
 :::
 
 ## Closeable
 
-:::raw
+::: raw
 <ShowCaseCloseable />
 :::
 
-:::details View source
+::: details View source
 <<< @/components/data-display/tag/ShowCaseCloseable.vue
 :::
 
