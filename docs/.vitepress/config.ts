@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import unifyUiPlugin from "@unify-ui/vite-plugin-unify-ui-docs";
+import VueDevTools from "vite-plugin-vue-devtools";
 
 export default defineConfig({
   title: "Unify UI",
@@ -80,5 +82,8 @@ export default defineConfig({
         ],
       },
     ],
+  },
+  vite: {
+    plugins: [unifyUiPlugin(), VueDevTools()],
   },
 });

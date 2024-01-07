@@ -4,7 +4,7 @@ import ShowCaseCustomizedFormControl from './ShowCaseCustomizedFormControl.vue'
 import ShowCaseLayout from './ShowCaseLayout.vue'
 import { Form, CustomizedInput } from './ShowCaseCustomizedFormControl2'
 import ShowCaseCustomizedFormControl2 from './ShowCaseCustomizedFormControl2.vue'
-import ShowCaseCustomizedFormControl2Input from '!raw-loader!./ShowCaseCustomizedFormControl2Input.vue'
+import ShowCaseCustomizedFormControl2Input from './ShowCaseCustomizedFormControl2Input.vue'
 </script>
 
 # Form
