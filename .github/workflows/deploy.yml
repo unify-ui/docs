@@ -52,7 +52,7 @@ jobs:
         run: |
           pnpm --filter "@unify-ui/vite-plugin-unify-ui-docs" build
           pnpm --filter "@unify-ui/docs" build
-          touch packages/unify-ui-docs/.vitepress/dist/.nojekyll
+          touch  packages/unify-ui-docs/docs/.vitepress/dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
