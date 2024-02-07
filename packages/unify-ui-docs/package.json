@@ -24,7 +24,7 @@
     "vue": "^3.4.5"
   },
   "dependencies": {
-    "@unify-ui/vite-plugin-unify-ui-docs": "^0.1.0",
+    "@unify-ui/vite-plugin-unify-ui-docs": "workspace:^",
     "unify-ui": "^0.14.24"
   },
   "config": {

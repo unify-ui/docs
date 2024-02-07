@@ -15,7 +15,7 @@ importers:
   packages/unify-ui-docs:
     dependencies:
       '@unify-ui/vite-plugin-unify-ui-docs':
-        specifier: ^0.1.0
+        specifier: workspace:^
         version: link:../vite-plugin-unify-ui
       unify-ui:
         specifier: ^0.14.24
