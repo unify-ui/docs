@@ -1,0 +1,15 @@
+{
+  "name": "unify-ui-docs",
+  "private": true,
+  "scripts": {
+    "cz": "cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
