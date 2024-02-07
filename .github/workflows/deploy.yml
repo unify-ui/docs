@@ -40,7 +40,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: pnpm # or pnpm / yarn
 
       - name: Setup Pages
@@ -51,13 +51,13 @@ jobs:
 
       - name: Build with VitePress
         run: |
-          pnpm build
-          touch docs/.vitepress/dist/.nojekyll
+          pnpm --filter "@unify-ui/docs" build
+          touch packages/unify-ui-docs/.vitepress/dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: docs/.vitepress/dist
+          path: packages/unify-ui-docs/.vitepress/dist
 
   # Deployment job
   deploy:
