@@ -7,10 +7,6 @@ const checked2 = ref(false);
 </script>
 
 <template>
-  <div>
-    <UniCheckbox v-model:checked="checked1" label="checked"></UniCheckbox>
-    <UniCheckbox v-model:checked="checked2" label="not checked"></UniCheckbox>
-  </div>
+  <UniCheckbox v-model:checked="checked1" label="checked"></UniCheckbox>
+  <UniCheckbox v-model:checked="checked2" label="not checked"></UniCheckbox>
 </template>
-
-<style lang="scss" module></style>

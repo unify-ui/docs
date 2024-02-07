@@ -10,14 +10,10 @@ function fileChange(fileList: File[]) {
 </script>
 
 <template>
-  <div>
-    <UniFileDropZone multiple @file-change="fileChange"> </UniFileDropZone>
+  <UniFileDropZone multiple @file-change="fileChange"> </UniFileDropZone>
 
-    <p>File list:</p>
-    <ul>
-      <li v-for="item in filesInfo" :key="item.name">{{ item.name }}</li>
-    </ul>
-  </div>
+  <p>File list:</p>
+  <ul>
+    <li v-for="item in filesInfo" :key="item.name">{{ item.name }}</li>
+  </ul>
 </template>
-
-<style lang="scss" scoped></style>

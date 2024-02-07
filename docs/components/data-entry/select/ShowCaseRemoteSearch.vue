@@ -38,14 +38,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <UniSelect v-model="value" remote-search :loading="loading" @search="handleFetchData">
-      <UniSelectOption
-        v-for="item in options"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      ></UniSelectOption>
-    </UniSelect>
-  </div>
+  <UniSelect v-model="value" remote-search :loading="loading" @search="handleFetchData">
+    <UniSelectOption
+      v-for="item in options"
+      :key="item.value"
+      :label="item.label"
+      :value="item.value"
+    ></UniSelectOption>
+  </UniSelect>
 </template>

@@ -40,10 +40,7 @@ watch(
   }
 );
 
-function handleChangeSelectionRows(params: {
-  selected: boolean;
-  records: any[];
-}) {
+function handleChangeSelectionRows(params: { selected: boolean; records: any[] }) {
   params.records.forEach((item) => {
     if (params.selected) {
       state.selectedRows.set(item.id, item);
@@ -53,22 +50,14 @@ function handleChangeSelectionRows(params: {
   });
 }
 
-function handleSelection(params: {
-  selected: boolean;
-  rowKey: string | number;
-  record: any;
-}) {
+function handleSelection(params: { selected: boolean; rowKey: string | number; record: any }) {
   handleChangeSelectionRows({
     selected: params.selected,
     records: [params.record],
   });
 }
 
-function handleSelectAll(params: {
-  selected: boolean;
-  rowKeys: (string | number)[];
-  records: any[];
-}) {
+function handleSelectAll(params: { selected: boolean; rowKeys: (string | number)[]; records: any[] }) {
   handleChangeSelectionRows({
     selected: params.selected,
     records: params.records,
@@ -81,23 +70,19 @@ function handleClearSelection() {
 </script>
 
 <template>
-  <div>
-    <UniButton class="button" type="soft" @click="handleClearSelection">
-      Clear selectedRowKeys
-    </UniButton>
+  <UniButton class="button" type="soft" @click="handleClearSelection"> Clear selectedRowKeys </UniButton>
 
-    <UniTable
-      v-model:selected-row-keys="state.selectedRowKeys"
-      row-key="id"
-      class="container"
-      :columns="columns"
-      :data="data"
-      :selection="{ type: 'multiple', disabledCondition }"
-      @select="handleSelection"
-      @select-all="handleSelectAll"
-    >
-    </UniTable>
-  </div>
+  <UniTable
+    v-model:selected-row-keys="state.selectedRowKeys"
+    row-key="id"
+    class="container"
+    :columns="columns"
+    :data="data"
+    :selection="{ type: 'multiple', disabledCondition }"
+    @select="handleSelection"
+    @select-all="handleSelectAll"
+  >
+  </UniTable>
 </template>
 
 <style scoped>

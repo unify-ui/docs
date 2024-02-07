@@ -15,5 +15,3 @@ const value = ref("1");
 <template>
   <UniRadioGroup v-model="value" name="disabled-case" :options="options" disabled></UniRadioGroup>
 </template>
-
-<style lang="scss" scoped></style>

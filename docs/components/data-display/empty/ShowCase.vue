@@ -5,5 +5,3 @@ import { UniEmpty } from "unify-ui";
 <template>
   <UniEmpty></UniEmpty>
 </template>
-
-<style lang="scss" scoped></style>

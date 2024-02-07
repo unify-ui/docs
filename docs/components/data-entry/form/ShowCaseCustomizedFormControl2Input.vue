@@ -4,13 +4,7 @@ const validateStatus = useGetFormItemValidateStatus();
 </script>
 
 <template>
-  <div>
-    <input
-      v-bind="$attrs"
-      class="input"
-      :class="{ 'input--error': validateStatus === 'error' }"
-    />
-  </div>
+  <input v-bind="$attrs" class="input" :class="{ 'input--error': validateStatus === 'error' }" />
 </template>
 
 <style scoped>

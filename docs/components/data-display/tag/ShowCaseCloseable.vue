@@ -11,15 +11,7 @@ function handleClose(tag: (typeof originPreset)[number]) {
 </script>
 
 <template>
-  <div>
-    <UniTag
-      v-for="preset of presets"
-      :key="preset"
-      :type="preset"
-      closable
-      @close="handleClose(preset)"
-    >
-      {{ preset }}
-    </UniTag>
-  </div>
+  <UniTag v-for="preset of presets" :key="preset" :type="preset" closable @close="handleClose(preset)">
+    {{ preset }}
+  </UniTag>
 </template>

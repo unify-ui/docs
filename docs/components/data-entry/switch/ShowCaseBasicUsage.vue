@@ -14,5 +14,3 @@ function handleChange(value: boolean) {
   <UniSwitch v-model="switchValue1" @change="handleChange"></UniSwitch>
   <UniSwitch v-model="switchValue2" @change="handleChange"></UniSwitch>
 </template>
-
-<style lang="scss" scoped></style>

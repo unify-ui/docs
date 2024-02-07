@@ -8,5 +8,3 @@ const value = ref("");
 <template>
   <UniPassword v-model="value" placeholder="Please enter password"></UniPassword>
 </template>
-
-<style lang="scss" scoped></style>

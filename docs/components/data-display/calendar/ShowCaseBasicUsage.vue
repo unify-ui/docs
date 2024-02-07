@@ -6,9 +6,5 @@ const date = ref(new Date());
 </script>
 
 <template>
-  <div>
-    <UniCalendar v-model="date" />
-  </div>
+  <UniCalendar v-model="date" />
 </template>
-
-<style lang="scss" module></style>

@@ -17,11 +17,5 @@ async function handleConfirmDialogButton() {
 </script>
 
 <template>
-  <div>
-    <UniButton type="soft" @click="handleConfirmDialogButton">
-      Show Confirm Dialog
-    </UniButton>
-  </div>
+  <UniButton type="soft" @click="handleConfirmDialogButton"> Show Confirm Dialog </UniButton>
 </template>
-
-<style lang="scss" scoped></style>

@@ -6,14 +6,10 @@ const locale = ref<"en-US" | "zh-CN">("en-US");
 </script>
 
 <template>
-  <div>
-    <UniButton @click="locale = 'en-US'">locale: en-US</UniButton>
-    <UniButton @click="locale = 'zh-CN'">locale: zh-CN</UniButton>
+  <UniButton @click="locale = 'en-US'">locale: en-US</UniButton>
+  <UniButton @click="locale = 'zh-CN'">locale: zh-CN</UniButton>
 
-    <UniConfigProvider :locale="locale">
-      <UniEmpty></UniEmpty>
-    </UniConfigProvider>
-  </div>
+  <UniConfigProvider :locale="locale">
+    <UniEmpty></UniEmpty>
+  </UniConfigProvider>
 </template>
-
-<style lang="scss" scoped></style>

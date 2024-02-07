@@ -23,7 +23,6 @@ function handleReset() {
 </script>
 
 <template>
-  <div>
     <UniForm ref="formRef" v-model:model="model">
       <UniFormItem
         name="username"
@@ -44,7 +43,6 @@ function handleReset() {
         <UniButton class="button" @click="handleReset">Reset</UniButton>
       </div>
     </UniForm>
-  </div>
 </template>
 
 <style scoped>

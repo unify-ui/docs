@@ -10,5 +10,3 @@ const switchValue2 = ref(false);
   <UniSwitch v-model="switchValue1" disabled></UniSwitch>
   <UniSwitch v-model="switchValue2" disabled></UniSwitch>
 </template>
-
-<style lang="scss" scoped></style>

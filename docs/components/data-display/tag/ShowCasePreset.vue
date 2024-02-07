@@ -5,9 +5,5 @@ const presets = ["default", "info", "success", "warning", "error"] as const;
 </script>
 
 <template>
-  <div>
-    <UniTag v-for="preset in presets" :key="preset" :type="preset">{{ preset }}</UniTag>
-  </div>
+  <UniTag v-for="preset in presets" :key="preset" :type="preset">{{ preset }}</UniTag>
 </template>
-
-<style lang="scss" module></style>

@@ -22,5 +22,3 @@ const columns: InstanceType<typeof UniTable>["$props"]["columns"] = [
     <template #author="{ record }"> Author is {{ record.author }} </template>
   </UniTable>
 </template>
-
-<style scoped></style>

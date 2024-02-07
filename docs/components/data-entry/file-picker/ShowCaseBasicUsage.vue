@@ -24,5 +24,3 @@ function fileChange(fileList: FileList) {
     <li v-for="file in fileInfos" :key="file.name">{{ file.name }}</li>
   </ul>
 </template>
-
-<style lang="scss" scoped></style>

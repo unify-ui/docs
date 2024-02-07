@@ -9,31 +9,15 @@ import { UniCheckbox } from "unify-ui";
     </li>
 
     <li>
-      <UniCheckbox
-        :checked="false"
-        indeterminate
-        label="not checked"
-      ></UniCheckbox>
+      <UniCheckbox :checked="false" indeterminate label="not checked"></UniCheckbox>
     </li>
 
     <li>
-      <UniCheckbox
-        :checked="true"
-        disabled
-        indeterminate
-        label="check & disabled"
-      ></UniCheckbox>
+      <UniCheckbox :checked="true" disabled indeterminate label="check & disabled"></UniCheckbox>
     </li>
 
     <li>
-      <UniCheckbox
-        :checked="false"
-        disabled
-        indeterminate
-        label="not check & disabled"
-      ></UniCheckbox>
+      <UniCheckbox :checked="false" disabled indeterminate label="not check & disabled"></UniCheckbox>
     </li>
   </ul>
 </template>
-
-<style lang="scss" scoped></style>

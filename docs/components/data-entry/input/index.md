@@ -50,7 +50,7 @@ You can use the `disabled` property to control the Input component's disabled st
 The Input component supports add-ons. To add the leading add-on, use the `leading-add-on` slot. To add the trailing add-on, use the `trailing-add-on` slot.
 
 ::: raw
-<ShowCaseAddOn class=vp-raw />
+<ShowCaseAddOn />
 :::
 
 ::: details View Source
@@ -60,7 +60,7 @@ The Input component supports add-ons. To add the leading add-on, use the `leadin
 The example of adding add-ons to a disabled input:
 
 ::: raw
-<ShowCaseAddOnDisabled class=vp-raw />
+<ShowCaseAddOnDisabled />
 :::
 
 ::: details View Source
@@ -72,7 +72,7 @@ The example of adding add-ons to a disabled input:
 The Input component supports inline add-ons. To add the inline leading add-on, use the `inline-leading-add-on` slot. To add the inline trailing add-on, use the `inline-trailing-add-on` slot.
 
 ::: raw
-<ShowCaseInlineAddOn class=vp-raw />
+<ShowCaseInlineAddOn />
 :::
 
 ::: details View Source
@@ -82,7 +82,7 @@ The Input component supports inline add-ons. To add the inline leading add-on, u
 The example of adding leading add-ons to a disabled input:
 
 ::: raw
-<ShowCaseInlineAddOnDisabled class=vp-raw />
+<ShowCaseInlineAddOnDisabled />
 :::
 
 ::: details View Source
@@ -92,7 +92,7 @@ The example of adding leading add-ons to a disabled input:
 ## Status: Error
 
 ::: raw
-<ShowCaseStatusError class=vp-raw />
+<ShowCaseStatusError />
 :::
 
 ::: details View Source

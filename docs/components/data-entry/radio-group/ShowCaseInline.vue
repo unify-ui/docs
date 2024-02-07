@@ -17,13 +17,5 @@ function handleChange(value: string) {
 </script>
 
 <template>
-  <UniRadioGroup
-    v-model="value"
-    name="inline-case"
-    :options="options"
-    inline
-    @change="handleChange"
-  ></UniRadioGroup>
+  <UniRadioGroup v-model="value" name="inline-case" :options="options" inline @change="handleChange"></UniRadioGroup>
 </template>
-
-<style lang="scss" scoped></style>

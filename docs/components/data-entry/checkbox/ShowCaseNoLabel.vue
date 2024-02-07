@@ -13,5 +13,3 @@ import { UniCheckbox } from "unify-ui";
     </li>
   </ul>
 </template>
-
-<style lang="scss" scoped></style>

@@ -15,14 +15,12 @@ const value = ref<string>("a");
 </script>
 
 <template>
-  <div class="container">
-    <UniSelect v-model="value" status="error">
-      <UniSelectOption
-        v-for="item in options"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      ></UniSelectOption>
-    </UniSelect>
-  </div>
+  <UniSelect v-model="value" status="error">
+    <UniSelectOption
+      v-for="item in options"
+      :key="item.value"
+      :label="item.label"
+      :value="item.value"
+    ></UniSelectOption>
+  </UniSelect>
 </template>

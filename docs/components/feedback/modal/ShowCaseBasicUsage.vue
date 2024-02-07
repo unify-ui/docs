@@ -22,18 +22,14 @@ function handleKeyboardEscapeKey() {
 </script>
 
 <template>
-  <div>
-    <UniButton type="soft" @click="handleButtonClick">Open the Modal</UniButton>
+  <UniButton type="soft" @click="handleButtonClick">Open the Modal</UniButton>
 
-    <UniModal
-      :visible="visible"
-      title="Tips"
-      supporting-text="Are you sure you want to delete this record?"
-      @click:confirm-button="handleConfirm"
-      @click:cancel-button="handleCancel"
-      @press:keyboard-escape-key="handleKeyboardEscapeKey"
-    ></UniModal>
-  </div>
+  <UniModal
+    :visible="visible"
+    title="Tips"
+    supporting-text="Are you sure you want to delete this record?"
+    @click:confirm-button="handleConfirm"
+    @click:cancel-button="handleCancel"
+    @press:keyboard-escape-key="handleKeyboardEscapeKey"
+  ></UniModal>
 </template>
-
-<style lang="scss" scoped></style>

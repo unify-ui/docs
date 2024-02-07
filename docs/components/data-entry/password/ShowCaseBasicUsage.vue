@@ -6,9 +6,5 @@ const value = ref("");
 </script>
 
 <template>
-  <div>
-    <UniPassword v-model="value"></UniPassword>
-  </div>
+  <UniPassword v-model="value"></UniPassword>
 </template>
-
-<style lang="scss" scoped></style>

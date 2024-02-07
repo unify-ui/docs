@@ -6,9 +6,5 @@ const date = ref();
 </script>
 
 <template>
-  <div>
-    <UniDatePicker v-model="date" />
-  </div>
+  <UniDatePicker v-model="date" />
 </template>
-
-<style lang="scss" module></style>

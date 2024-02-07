@@ -15,14 +15,12 @@ const options = [
 </script>
 
 <template>
-  <div>
-    <UniSelect v-model="value">
-      <UniSelectOption
-        v-for="item in options"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      ></UniSelectOption>
-    </UniSelect>
-  </div>
+  <UniSelect v-model="value">
+    <UniSelectOption
+      v-for="item in options"
+      :key="item.value"
+      :label="item.label"
+      :value="item.value"
+    ></UniSelectOption>
+  </UniSelect>
 </template>

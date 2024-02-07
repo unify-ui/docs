@@ -15,16 +15,14 @@ const value = ref<Set<string>>(new Set(["a", "b"]));
 </script>
 
 <template>
-  <div>
-    <UniSelect v-model="value" multiple class="select">
-      <UniSelectOption
-        v-for="item in options"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      ></UniSelectOption>
-    </UniSelect>
-  </div>
+  <UniSelect v-model="value" multiple class="select">
+    <UniSelectOption
+      v-for="item in options"
+      :key="item.value"
+      :label="item.label"
+      :value="item.value"
+    ></UniSelectOption>
+  </UniSelect>
 </template>
 
 <style scoped>

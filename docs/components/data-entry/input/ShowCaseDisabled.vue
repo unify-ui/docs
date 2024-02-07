@@ -8,5 +8,3 @@ const value = ref("This Input is disabled");
 <template>
   <UniInput v-model="value" disabled></UniInput>
 </template>
-
-<style lang="scss" scoped></style>

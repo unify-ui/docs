@@ -27,5 +27,3 @@ const columns: InstanceType<typeof UniTable>["$props"]["columns"] = [
 <template>
   <UniTable row-key="id" :columns="columns" :data="data"> </UniTable>
 </template>
-
-<style scoped></style>

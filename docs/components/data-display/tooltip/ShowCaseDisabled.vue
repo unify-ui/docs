@@ -11,16 +11,14 @@ const radioValue = ref("false");
 </script>
 
 <template>
-  <div>
-    <div class="radio-group">
-      <UniRadioGroup v-model="radioValue" name="tooltip-disabled-value" :options="options" inline />
-    </div>
+  <div class="radio-group">
+    <UniRadioGroup v-model="radioValue" name="tooltip-disabled-value" :options="options" inline />
+  </div>
 
-    <div class="show-case">
-      <UniToolTip title="text" placement="top" :disabled="radioValue === 'true'">
-        <UniButton>Hover over me!</UniButton>
-      </UniToolTip>
-    </div>
+  <div class="show-case">
+    <UniToolTip title="text" placement="top" :disabled="radioValue === 'true'">
+      <UniButton>Hover over me!</UniButton>
+    </UniToolTip>
   </div>
 </template>
 

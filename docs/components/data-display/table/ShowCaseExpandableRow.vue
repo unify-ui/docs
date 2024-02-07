@@ -23,16 +23,9 @@ const rowExpand: InstanceType<typeof UniTable>["$props"]["rowExpand"] = {
 </script>
 
 <template>
-  <UniTable
-    row-key="id"
-    :columns="columns"
-    :data="data"
-    :row-expand="rowExpand"
-  >
+  <UniTable row-key="id" :columns="columns" :data="data" :row-expand="rowExpand">
     <template #rowExpand="{ record }">
       {{ `Expand row: ${record.description}` }}
     </template>
   </UniTable>
 </template>
-
-<style scoped></style>

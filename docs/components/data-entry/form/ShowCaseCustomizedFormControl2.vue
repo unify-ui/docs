@@ -25,22 +25,16 @@ function handleReset() {
 </script>
 
 <template>
-  <div>
-    <UniForm ref="formRef" v-model:model="model">
-      <UniFormItem
-        name="username"
-        :rules="[{ required: true, message: 'Username is required' }]"
-        label="Username"
-      >
-        <CustomizedInput v-model="model.username" />
-      </UniFormItem>
+  <UniForm ref="formRef" v-model:model="model">
+    <UniFormItem name="username" :rules="[{ required: true, message: 'Username is required' }]" label="Username">
+      <CustomizedInput v-model="model.username" />
+    </UniFormItem>
 
-      <div>
-        <UniButton class="button" type="soft" @click="handleSubmit">Submit</UniButton>
-        <UniButton class="button" @click="handleReset">Reset</UniButton>
-      </div>
-    </UniForm>
-  </div>
+    <div>
+      <UniButton class="button" type="soft" @click="handleSubmit">Submit</UniButton>
+      <UniButton class="button" @click="handleReset">Reset</UniButton>
+    </div>
+  </UniForm>
 </template>
 
 <style scoped>

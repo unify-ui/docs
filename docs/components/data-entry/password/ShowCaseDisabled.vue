@@ -8,5 +8,3 @@ const value = ref("");
 <template>
   <UniPassword v-model="value" disabled></UniPassword>
 </template>
-
-<style lang="scss" scoped></style>

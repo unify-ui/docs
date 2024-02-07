@@ -5,5 +5,3 @@ import { UniInput } from "unify-ui";
 <template>
   <UniInput placeholder="placeholder: you@email.com"></UniInput>
 </template>
-
-<style lang="scss" scoped></style>
