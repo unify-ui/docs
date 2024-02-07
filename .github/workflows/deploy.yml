@@ -29,13 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
-
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -43,19 +39,24 @@ jobs:
           node-version: 20
           cache: pnpm # or pnpm / yarn
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
 
       - name: Install dependencies
         run: pnpm install # or pnpm install / yarn install / bun install
 
       - name: Build with VitePress
         run: |
+          pnpm --filter "@unify-ui/vite-plugin-unify-ui-docs" build
           pnpm --filter "@unify-ui/docs" build
           touch packages/unify-ui-docs/.vitepress/dist/.nojekyll
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: packages/unify-ui-docs/.vitepress/dist
 
@@ -70,4 +71,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
