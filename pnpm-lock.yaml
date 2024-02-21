@@ -21,8 +21,8 @@ importers:
         specifier: workspace:^
         version: link:../vite-plugin-unify-ui
       unify-ui:
-        specifier: ^0.14.27
-        version: 0.14.27(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19)
+        specifier: ^0.14.29
+        version: 0.14.29(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19)
     devDependencies:
       '@faker-js/faker':
         specifier: ^8.4.1
@@ -3923,8 +3923,8 @@ packages:
       vfile: 6.0.1
     dev: false
 
-  /unify-ui@0.14.27(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19):
-    resolution: {integrity: sha512-tBwXwXt1Nemd2hCxYT6VqOCXB33slccMe5RWGYSOYxa0JGfIBvZEHoy/I5F8gL2/wlzJmbG+mgIFNZVQDuFuwg==}
+  /unify-ui@0.14.29(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19):
+    resolution: {integrity: sha512-asbozNSoUXWyfGo4XRRTq07htRhAqf1r4XgBZ02vc6TZT019LCJx2ER7GxbjCBhkzUA2Uz1hoRboDCywzPUtzw==}
     peerDependencies:
       '@floating-ui/dom': ^1.2.1
       '@unify-ui/web-components': ^0.1.2
