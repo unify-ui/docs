@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@unify-ui/vite-plugin-unify-ui-docs": "workspace:^",
-    "unify-ui": "^0.14.26"
+    "unify-ui": "^0.14.27"
   },
   "config": {
     "commitizen": {
