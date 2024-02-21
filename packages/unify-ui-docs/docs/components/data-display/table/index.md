@@ -142,7 +142,7 @@ When the sort event is triggered, the `columnKey` and `order` (sort type) of the
 
 ## Column Resize
 
-To enable table column resizing, use v-model:column to bind the reactive column definition. Set the column.resizable property to indicate which columns should be resizable. When a column's width is changed, the column.width property will be updated.
+To enable table column resizing, use `v-model:column` to bind the reactive column definition. Set the `column.resizable` property to indicate which columns should be resizable. When a column's width is changed, the `column.width` property will be updated.
 
 ::: raw
 <ShowCaseHeaderResize />
