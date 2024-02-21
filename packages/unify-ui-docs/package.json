@@ -13,19 +13,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@faker-js/faker": "^8.3.1",
+    "@faker-js/faker": "^8.4.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.35",
     "postcss-prefix-selector": "^1.16.0",
-    "sass": "^1.69.7",
-    "vite-plugin-vue-devtools": "^7.0.6",
-    "vitepress": "1.0.0-rc.35",
-    "vue": "^3.4.5"
+    "sass": "^1.71.1",
+    "vite-plugin-vue-devtools": "^7.0.15",
+    "vitepress": "1.0.0-rc.44",
+    "vue": "^3.4.19"
   },
   "dependencies": {
     "@unify-ui/vite-plugin-unify-ui-docs": "workspace:^",
-    "unify-ui": "^0.14.24"
+    "unify-ui": "^0.14.26"
   },
   "config": {
     "commitizen": {
