@@ -8,6 +8,7 @@ import ShowCaseCustomHeader from './ShowCaseCustomHeader.vue'
 import ShowCaseNoData from './ShowCaseNoData.vue'
 import ShowCaseSort from './ShowCaseSort.vue'
 import ShowCaseTextEllipsis from './ShowCaseTextEllipsis.vue'
+import ShowCaseHeaderResize from './ShowCaseHeaderResize.vue'
 </script>
 
 # Table
@@ -139,6 +140,18 @@ When the sort event is triggered, the `columnKey` and `order` (sort type) of the
 <<< @/components/data-display/table/ShowCaseTextEllipsis.vue
 :::
 
+## Column Resize
+
+To enable table column resizing, use v-model:column to bind the reactive column definition. Set the column.resizable property to indicate which columns should be resizable. When a column's width is changed, the column.width property will be updated.
+
+::: raw
+<ShowCaseHeaderResize />
+:::
+
+::: details View Source
+<<< @/components/data-display/table/ShowCaseHeaderResize.vue
+:::
+
 ## API
 
 ### Table Props
@@ -224,6 +237,9 @@ interface Column {
    * @default 200
    */
   minWidth?: number;
+
+  /** Whether the column is resizable */
+  resizable?: boolean;
 }
 ```
 
