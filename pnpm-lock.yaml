@@ -21,8 +21,8 @@ importers:
         specifier: workspace:^
         version: link:../vite-plugin-unify-ui
       unify-ui:
-        specifier: ^0.14.29
-        version: 0.14.29(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19)
+        specifier: ^0.14.30
+        version: 0.14.30(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19)
     devDependencies:
       '@faker-js/faker':
         specifier: ^8.4.1
@@ -1816,7 +1816,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001588
-      electron-to-chromium: 1.4.677
+      electron-to-chromium: 1.4.679
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -1959,7 +1959,7 @@ packages:
     dev: true
 
   /concat-map@0.0.1:
-    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
   /conventional-commit-types@3.0.0:
@@ -2148,8 +2148,8 @@ packages:
       domhandler: 5.0.3
     dev: false
 
-  /electron-to-chromium@1.4.677:
-    resolution: {integrity: sha512-erDa3CaDzwJOpyvfKhOiJjBVNnMM0qxHq47RheVVwsSQrgBA9ZSGV9kdaOfZDPXcHzhG7lBxhj6A7KvfLJBd6Q==}
+  /electron-to-chromium@1.4.679:
+    resolution: {integrity: sha512-NhQMsz5k0d6m9z3qAxnsOR/ebal4NAGsrNVRwcDo4Kc/zQ7KdsTKZUxZoygHcVRb0QDW3waEDIcE3isZ79RP6g==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -3923,8 +3923,8 @@ packages:
       vfile: 6.0.1
     dev: false
 
-  /unify-ui@0.14.29(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19):
-    resolution: {integrity: sha512-asbozNSoUXWyfGo4XRRTq07htRhAqf1r4XgBZ02vc6TZT019LCJx2ER7GxbjCBhkzUA2Uz1hoRboDCywzPUtzw==}
+  /unify-ui@0.14.30(@floating-ui/dom@1.6.3)(@unify-ui/web-components@0.1.5)(async-validator@4.2.5)(dayjs@1.11.10)(lodash-es@4.17.21)(vue@3.4.19):
+    resolution: {integrity: sha512-iSGVu6leexWEZRSR1SSi3KyXlpCEINbFo/rzau9vWlOydW94UmTo95Lh/kBQ3cUFSTfHNLfIFZBRoAYkftPg0w==}
     peerDependencies:
       '@floating-ui/dom': ^1.2.1
       '@unify-ui/web-components': ^0.1.2
